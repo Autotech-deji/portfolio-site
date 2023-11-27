@@ -1,0 +1,160 @@
+
+.TOP {
+  margin-left: 300px;
+  background-color: rgb(147, 168, 185);
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
+  vertical-align: top;
+   
+}
+
+.T2 {
+  width: 390px;
+  margin-left: 25px;
+  color: rgb(66, 52, 17);
+  font-family: cursive;
+  
+}
+
+.A1 .T1 {
+  margin-bottom: 5px ;
+}
+
+
+.A1 .T2 {
+  margin-top: 5px ;
+  margin-bottom: 25px;
+}
+
+.T1 {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: larger;
+  width: 1200px;
+  display: inline-block;
+  margin-top: 15px;
+  padding-bottom: 0px;  
+}
+
+.TO {
+  
+  background-color: rgba(0, 0, 0, 0.473);
+  width: 450px;
+  height: 350PX;
+  margin-left: 50px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  column-gap: 45px;
+  
+}
+
+@media (max-width: 1500px) {
+  .TO {grid-template-columns: 400px 2fr;
+
+  }
+}
+
+@media (min-width: 1830px) {
+  .TO {grid-template-columns: 400px 2fr 1fr;
+
+  }
+}
+
+
+
+.img1 {
+  width: 450px;
+  margin-top:25px;
+  display: inline-block;
+  
+}
+
+.FO {
+  display: grid;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-top: -950px; 
+}
+
+.DD {
+  display: grid;
+}
+
+.QQ {
+  display: grid;
+  width: 1fr; 
+}
+
+.FF {
+  background-color: rgba(128, 128, 128, 0.486);
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.WE {
+  display: inline-block;
+  margin-top: 150px;
+  vertical-align: bottom; 
+}
+
+.img2 {
+  width: 450px;
+  margin-bottom: 35px;
+
+}
+
+.img3 {
+  width: 450px;
+  margin-bottom: 300px;
+  
+}
+
+.TEXT {
+  margin-left: 200PX;
+  font-style: normal;
+  font-size: 24PX;
+  width: 500px;
+  display: inline-block;
+  background-color: coral;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-bottom: 950px;
+}
+.home {
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -50px;
+  margin-left: 1750px;
+  
+  
+}
+
+
+.btn {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: dimgray;
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.btn:hover {
+  background-color: dimgray;
+  transition: 0.5;
+}
+
+.btn:active {
+  background-color: cadetblue;
+  transition: 0.5;
+}
+
+.hello {
+  text-decoration: none;
+}

@@ -1,0 +1,95 @@
+
+.TOP {
+  
+  background-color: rgb(147, 168, 185);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 5px;
+  border-radius: 15px;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+}
+
+.FF {
+  background-color: rgba(128, 128, 128, 0.486);
+}
+
+.PDF1 {
+  display: flex;
+  justify-content: center;
+  min-width: 1870PX;
+  min-height: 870PX;
+  margin: 25px;
+  position: relative;
+
+}
+
+.GG {
+  display: inline-block
+}
+
+.submit {
+  position: static;
+  border-style: none;
+  font-size: larger;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0px;
+   
+}
+
+
+.submit:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.4;
+
+}
+
+.TRANS {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+.home {
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -50px;
+  margin-left: 1725px;
+  
+  
+}
+
+
+.btn {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: dimgray;
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.btn:hover {
+  background-color: dimgray;
+  transition: 0.5;
+}
+
+.btn:active {
+  background-color: cadetblue;
+  transition: 0.5;
+}
+
+.hello {
+  text-decoration: none;
+}
+

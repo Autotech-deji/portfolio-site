@@ -1,0 +1,174 @@
+.FO {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 25px;
+  height: 360px;
+  max-width: 700px;
+
+}
+
+.F1 {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 25px;
+  height: 360px;
+  max-width: 700px;
+ 
+
+}
+
+.DD1 {
+  display: flex;
+
+}
+
+.DD2 {
+  displaY: flex;
+  
+}
+
+.DD {
+  display: flex;
+
+  
+}
+
+
+.DD:hover {
+  cursor: pointer;
+
+  
+}
+
+
+.DD:hover .TEXT {
+  transform: translateX(200%);
+  animation: left-to-right infinite;
+
+  
+}
+
+
+@media (max-width: 1500px) {
+  .FO {
+    width: 500px;
+    margin-left: 50px;
+    height: 250px;
+  }
+  .F1 {
+    width: 500px;
+    margin-left: 50px;
+    height: 250px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .FO {
+    width: 300px;
+    margin-left: 25px;
+    height: 150px;
+  }
+  .F1 {
+    width: 300px;
+    margin-left: 25px;
+    height: 150px;
+  }
+}
+
+.FF {
+  background-color: rgba(5, 5, 5, 0.918);
+  
+}
+
+.TEXT {
+  
+  margin-right: 250PX;
+  font-style: normal;
+  font-size: 24PX;
+  width: 440px;
+  display: inline-block;
+  padding-left: 27px;
+  padding-top: 14PX;
+  padding-bottom: 19px;
+  background-color: coral;
+  margin-bottom: 1PX;
+  margin-top: 20px;
+  margin-left: 250px;
+  letter-spacing: 5px;
+  transition: transform 5s linear ;
+
+}
+
+.ALL {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 160px;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.submit {
+  position: fixed;
+  border-style: none;
+  font-size: larger;
+  border-radius: 20px;
+  margin-top: 425px;
+  margin-left: -100px;
+  display: inline-block;
+
+}
+
+.submit:hover {
+  
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.4;
+
+}
+
+
+.TRANS {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+.home {
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -50px;
+  margin-left: 1725px;
+  
+  
+}
+
+
+.btn {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: dimgray;
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.btn:hover {
+  background-color: dimgray;
+  transition: 0.5;
+}
+
+.btn:active {
+  background-color: cadetblue;
+  transition: 0.5;
+}
+
+.hello {
+  text-decoration: none;
+}

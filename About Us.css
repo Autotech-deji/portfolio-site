@@ -1,0 +1,127 @@
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color:  rgba(128, 128, 128, 0.103);
+  display: flex
+
+}
+
+
+
+
+.tet {
+  
+  min-height: 400px;
+  min-width: 700px;
+  font-size: xx-large;
+  margin-bottom: 30px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-bottom: 200px;
+  
+
+
+}
+
+.img2 {
+  max-height: 700px;
+  margin-top: 125px;
+  margin-left: 120px;
+  margin-bottom: 150PX;
+ 
+}
+
+.CO {
+  display: flex;
+  width: 93%;
+  height: 98%;
+
+  margin-top: 50px;
+  margin-bottom: 50PX;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+ 
+}
+
+.Ca {
+  max-width: 500px;
+
+ 
+}
+
+.TA {
+  
+  width: 800px;
+  height: 600px;
+  margin-bottom: 250px;
+  display: inline-block;
+  padding-top: 100px;
+
+}
+
+.YU,.YA {
+
+ margin-left: 500px;
+ margin-top: 30PX;
+ margin-bottom: 30px;
+
+}
+
+.tat {
+
+  width: 400px;
+  margin-left: 700px;
+  margin-right: 400px;
+  margin-top: 200px;
+  margin-bottom: -20px;
+  position: relative;
+ 
+}
+
+
+.home {
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -25px;
+  margin-left: 1700px;
+  
+  
+}
+
+
+.btn {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: dimgray;
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.btn:hover {
+  background-color: dimgray;
+  transition: 0.5;
+}
+
+.btn:active {
+  background-color: cadetblue;
+  transition: 0.5;
+}
+
+.hello {
+  text-decoration: none;
+}
+
+
+
+
+   
+  

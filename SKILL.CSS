@@ -1,0 +1,175 @@
+.header { 
+  background-color: rgba(169, 169, 169, 0.226);
+  display: inline-block;
+  margin-left: 700px;
+  padding: 12px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-top-style: groove;
+  border-collapse: separate;
+  border-color: brown;
+  border-radius: 25px;
+}
+
+
+.roll { 
+ 
+  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+  margin: 50px;
+
+
+}
+
+
+.deep { 
+  background-color: black;
+ 
+}
+
+.soft, .hard { 
+  
+  letter-spacing: 2px;
+  font-style: bold;
+  margin-left: 20px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 22px;
+
+
+}
+
+.font1, .font2 { 
+ margin-left: 80px;
+ flood-color: rgb(20, 4, 4)
+
+}
+
+.ul li {
+
+  color: rgb(27, 9, 9);
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.allow, .allow1 {
+  color: white;
+  margin-left: 50px;
+  background-color: rgba(169, 169, 169, 0.226);
+  border-radius: 20px;
+  border-top-style: groove;
+  border-collapse: separate;
+  border-color: brown;
+
+ 
+}
+
+.add {
+  color: wheat;
+  position: relative;
+  margin-left: 880px;
+}
+
+.address,.address2,.address3 {
+  background-color: rgba(169, 169, 169, 0.226);
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 100px;
+  font-size: larger;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  border-radius: 25px;
+  position: relative;
+  margin-left: 50px;
+  color: white;
+  border-top-style: groove;
+  border-collapse: separate;
+  border-color: brown;
+  width: 400px;
+
+
+}
+
+
+.ALL {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  margin-right: 75PX;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  
+   
+}
+
+.M1 {
+  display: flex;
+  margin-left: 110PX;
+  letter-spacing: 2.5px;
+
+}
+
+.M2 {
+  display: flex;
+  margin-left: 73PX;
+  letter-spacing: 2.5px;
+ 
+   
+}
+.M3 {
+  display: flex;
+  margin-left: 120px;
+  letter-spacing: 2.5px;
+  
+}
+
+.T2,.T1 {
+  padding-left: 20px
+  
+}
+.home {
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -120px;
+  margin-left: 1650px;
+  
+  
+}
+
+
+.btn {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: dimgray;
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.btn:hover {
+  background-color: dimgray;
+  transition: 0.5;
+}
+
+.btn:active {
+  background-color: cadetblue;
+  transition: 0.5;
+}
+
+.hello {
+  text-decoration: none;
+}
+
+

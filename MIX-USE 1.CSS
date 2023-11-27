@@ -1,0 +1,146 @@
+
+
+
+.TOP {
+  margin-left: 300px;
+  background-color: rgb(147, 168, 185);
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
+  vertical-align: top;
+
+}
+
+.T2 {
+  width: 420px;
+  margin-left: 25px;
+  color: rgb(66, 52, 17);
+  font-family: cursive;
+  margin-top: -20px;
+  
+  
+}
+
+.T1 {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: larger;
+  width: 420px;
+  display: inline-block;
+  
+}
+
+.TO {
+  
+  background-color: rgba(0, 0, 0, 0.473);
+  width: 450px;
+  height: 250PX;
+  margin-left: 40px;
+  margin-top: 30px;
+  display: FLEX;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+
+
+}
+.img1 {
+  
+  width: 450px;
+  margin-top: 5px;
+  display: inline-block;
+  
+}
+
+.img0 {
+  
+  width: 450px;
+  margin-top: 5px;
+  display: inline-block;
+   
+}
+
+.FF {
+  background-color: rgba(128, 128, 128, 0.486);
+  
+}
+
+.MY {
+  display: inline-block;
+  width: 1fr;
+}
+
+.PDF1 {
+  display: RELATIVE;
+  width: 1300px;
+  height: 810PX;
+  margin-left: 50px;
+  margin-right: 25px; 
+}
+
+.GG {
+  display: relative;
+  margin-right: 25px;
+
+  
+}
+
+.submit {
+  position: fixed;
+  margin-left: 1200px;
+  margin-top: 770px;
+  font-size: large;
+  border-radius: 25px;
+  border-style: none;
+
+} 
+
+.TRANS {
+  text-decoration: none;
+  color: black;
+}
+
+.submit:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5;
+
+}
+
+.home {
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -50px;
+  margin-left: 1750px;
+  
+  
+}
+
+
+.btn {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: dimgray;
+  border-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.btn:hover {
+  background-color: dimgray;
+  transition: 0.5;
+}
+
+.btn:active {
+  background-color: cadetblue;
+  transition: 0.5;
+}
+
+.hello {
+  text-decoration: none;
+}

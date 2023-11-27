@@ -1,0 +1,249 @@
+
+.KING {
+
+ border-top: rgba(0, 0, 0, 0.096);
+ border-style: solid;
+ border-left: white;
+ border-right: white;
+ border-bottom: white;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ justify-content: center;
+ column-gap: 10px;
+ margin: 5px;
+
+}
+
+
+@media (max-width: 1000px) {
+  .KING {
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1799px){
+   .KING { 
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+@media (min-width: 1800px) {
+  .KING {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+}
+
+
+
+
+.PLATE1,
+.PLATE2,
+.PLATE3,
+.PLATE4,
+.PLATE5,
+.PLATE6,
+.PLATE7,
+.PLATE8 {
+
+ height: 425px;
+ background-color: dimgray;
+ display: grid;
+ vertical-align: top;
+ margin-top: 25px;
+
+}
+
+   
+.img1 {
+
+ width: 432px;
+ display: inline-block;
+ padding-left: 16px;
+ padding-top: 22px;
+ padding-top: 12px;
+ 
+}
+
+.img2 {
+
+ width: 440px;
+ display: inline-block;
+ padding: 10px;
+ 
+}
+
+.img3 {
+
+ width: 470px;
+ height: 250px;
+ display: inline-block;
+ padding: 8px;
+
+}
+
+
+.img4 {
+
+ width: 440px;
+ display: inline-block;
+ padding: 10px;
+
+}
+
+
+.img5 {
+
+ width: 440px;
+ display: inline-block;
+ padding: 10px;
+ 
+}
+
+.img6 {
+
+ width: 440px;
+ display: inline-block;
+ padding: 10px;
+
+
+}
+
+.img7 {
+
+ width: 420px;
+ height: 250px;
+ display: inline-block;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 15px;
+
+}
+
+
+.img8 {
+
+ width: 400px;
+ display: inline-block;
+ padding-top: 10px;
+ padding-left: 25px;
+ padding-right: 25px;
+
+}
+
+.T1 { 
+margin-left: 14px;
+}
+
+.MO {
+ display: inline-block;
+ 
+}
+
+.T2 {
+ font-size: 20px;
+ display: inline-block;
+ width: 325px;
+ font-style: BOLD;
+ color: whitesmoke;
+ margin-top: 10px;
+ margin-left: 2px;
+ 
+}
+
+.BU1,
+.BU2,
+.BU3,
+.BU4,
+.BU5,
+.BU6,
+.BU7,
+.BU8 {
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+  margin-top: 20px;
+  
+}
+.one,.two,.three {
+  text-decoration: none;
+  color: black;
+}
+
+.BU1:hover,
+.BU2:hover,
+.BU3:hover,
+.BU4:hover,
+.BU5:hover,
+.BU6:hover,
+.BU7:hover,
+.BU8:hover {
+  
+  transform: scale(1.2);
+  opacity: o.5;
+  transition: 0.4;
+}
+
+.FF {
+  display: FLEX;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: slategray;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin: 8px;
+  
+}
+
+.FF li {
+  cursor: pointer;
+}
+
+.FF li:active {
+  color: rgb(255, 224, 47); 
+}
+
+.A1 {
+  position: relative;
+  display: inline-block;
+}
+
+.COMBO1 {
+  position: ABSOLUTE;
+  background-color: rgba(128, 128, 128, 0.397);
+  padding-right: 29px;
+  margin: 5px;
+  pointer-events: NONE;
+  opacity: 0;
+  transition: 2s;
+  
+}
+
+.A1:ACTIVE {
+  color: greenyellow;
+  display: block;
+
+  
+}
+
+.A1:active .COMBO1 {
+  color: rgba(172, 255, 47, 0.089);
+  display: block;
+  opacity: 13;
+  visibility: visible;
+  
+}
+
+.RES,.MIX,.COM,.HO {
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+
